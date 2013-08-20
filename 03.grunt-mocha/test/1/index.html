@@ -1,0 +1,21 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link rel="stylesheet" href="../../components/mocha/mocha.css" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <script src="../../libs/jquery.min.js"></script>
+  <script src="../../components/mocha/expect.js"></script>
+  <script src="../../components/mocha/mocha.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="../../components/phantomjs/bridge.js"></script>
+  <script src="test.array.js"></script>
+  <script>
+    mocha.checkLeaks();
+    mocha.globals(['jQuery']);
+    mocha.run();
+  </script>
+</body>
+</html>

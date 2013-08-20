@@ -1,0 +1,11 @@
+{
+  "name": "mocha-tryout",
+  "version": "0.0.0",
+  "author": "'Takazudo' Takeshi Takatsudo <takazudo@gmail.com>",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-mocha": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.2"
+  }
+}
