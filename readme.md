@@ -1,4 +1,4 @@
 refer
 
-* [mocha](http://visionmedia.github.io/mocha/)
+* [mocha](http://mochajs.org/)
 * [grunt-mocha](https://github.com/kmiyashiro/grunt-mocha)
